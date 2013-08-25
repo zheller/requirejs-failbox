@@ -1,0 +1,39 @@
+{
+  "name": "requirejs-failbox",
+  "version": "0.0.1",
+  "description": "A testing ground for weird requirejs fails.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "grunt connect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zheller/requirejs-failbox.git"
+  },
+  "keywords": [
+    "requirejs",
+    "failure",
+    "testing"
+  ],
+  "author": "Zachary Wright Heller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zheller/requirejs-failbox/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "karma": "~0.10.1",
+    "grunt-karma": "~0.6.1",
+    "requirejs": "~2.1.2",
+    "grunt-contrib-connect": "~0.3.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.2",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "mocha": "~1.12.0",
+    "karma-mocha": "~0.1.0",
+    "karma-requirejs": "~0.1.0",
+    "grunt-contrib-requirejs": "~0.4.1"
+  }
+}
